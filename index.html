@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <title>trenitalia</title>
 </head>
+
 <body>
+     <div class="container">
+          <div class="row">
+               <div class="col">
+                    <input type="text" id="km" name="km" placeholder="inserisci la distanza in km" class="form-control">
+                    <select name="eta" id="eta">
+                         <option value="seleziona">seleziona la tua eta</option>
+                         <option value="minore">Minorenne</option>
+                         <option value="19-64">Maggiorenne</option>
+                         <option value="over">Over 65</option>
+                    </select>
+                    <input type="text" id="nome" name="nome" placeholder="nome" class="form-control">
+                    <input type="text" id="cognome" name="cognome" placeholder="cognome" class="form-control">
+                    <button class="btn">genera biglietto</button>
+                    
+               </div>
+          </div>
+     </div>
      <script src="./script.js"></script>
 </body>
+
 </html>
