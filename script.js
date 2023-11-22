@@ -53,6 +53,8 @@ button.addEventListener('click', function () {
           console.log(prezzo)
      }
 
-
-
+     document.getElementById('passeggero').innerHTML = `${nome} ${cognome}`
+     document.getElementById('distanza').innerHTML = `${km}`
+     document.getElementById('costo').innerHTML = `${prezzo} `
+     
 })
